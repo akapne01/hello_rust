@@ -6,7 +6,7 @@
 /// Convention for const is to be all upercase.
 
 pub fn run() {
-    println!("In the vars.rs file");
+    println!("\nIn the vars.rs file");
     
     let name = "Agi";
     let mut number = 7;
