@@ -1,5 +1,6 @@
 pub fn run() {
     // Print to console
+    println!("\nIn print.rs file");
     println!("Hello from the print.rs file");
 
     // Basic formatting
