@@ -16,5 +16,8 @@
 ### Rust Language Online Playground:
 - https://play.rust-lang.org/
 
+### Concepts ###
+* create is a Rust package, weather a library, or an executable.
+
 ### My own observations about rust language
 - Rust Compiler is like a good friend and mentor that supports developers to find bugs. It facilitates to make the coding process easy and enjoyable. Kudos to Rust inventor Graydon Hoare and Mozilla for making such a friendly compiler. It actually makes a conversation with devs that work with it and speak in the language they understand. Compiler that supports and assists you, that is the future that is here already today. 
