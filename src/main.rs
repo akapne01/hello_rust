@@ -12,4 +12,11 @@ fn main() {
     print::run();
     strings::run();
     greatest_common_divisor::run();
+    /* C and C++ require main fn to return 0 if finished successfully.
+     * Rust assumes that if main fn returns at all, the program finished
+     * successfully.
+     * If we need to terminate program with an error status code, it can 
+     * be achieved only by explicitly calling functions like:
+     * expect or std::process::exit
+     */
 }
