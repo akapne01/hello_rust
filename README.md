@@ -11,6 +11,7 @@
 - https://doc.rust-lang.org/book/
 - https://github.com/rust-lang/rustlings/
 - https://doc.rust-lang.org/stable/rust-by-example/
+- Book: “Programming Rust, Second Edition by Jim Blandy, Jason Orendorff, and Leonora F.S. Tindall (O’Reilly). Copyright 2021 Jim Blandy, Leonora F.S. Tindall, and Jason Orendorff, 978-1-492-05259-3.”
 
 ### Rust Language Online Playground:
 - https://play.rust-lang.org/

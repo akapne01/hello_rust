@@ -3,6 +3,7 @@ mod vars;
 mod print;
 mod primitive_types;
 mod strings;
+mod greatest_common_divisor;
 
 
 fn main() {
@@ -10,4 +11,5 @@ fn main() {
     vars::run();
     print::run();
     strings::run();
+    greatest_common_divisor::run();
 }
