@@ -25,3 +25,20 @@ fn gcd(mut n: u64, mut m: u64) -> u64 {
     // semicolon, that's the fn return value
     n
 }
+
+#[test]
+fn test_gcd() {
+    //! when cargo run, the test is skipped
+    //! cargo test runs all the unit tests
+    //! #[test] is example of an attribute. 
+    //! - Attribute is an open ended system for marking fn and 
+    //! other declarations with extra info.
+    //! Works similar to annotations in Java.
+    //! Attributes are used to control compiler warnings and code
+    //! style checks, include code conditionally, tell rust how to
+    //! interact with code written in other languages and so on.
+    println!("\nRunning unit tests for gcd function!");
+    assert_eq!(gcd(14, 15), 1);
+    assert_eq!(gcd(12 * 3 * 5 * 11 * 17, 3 * 7 * 11 * 13 * 19), 3 * 11);
+
+}
